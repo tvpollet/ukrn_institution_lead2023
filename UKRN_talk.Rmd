@@ -1,0 +1,108 @@
+---
+title: "Some open research projects at Northumbria University"
+author: "Prof. Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)"
+date: "`r format(Sys.Date())` | [disclaimer](http://tvpollet.github.io/disclaimer)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=F, message=F, warning = F}
+require(xaringanExtra) 
+require(stargazer)
+require(tidyverse)
+require(knitr)
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo("NU2.png")
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+## Outline
+
+* Two small projects funded by our Research Culture budget.
+
+```{r, out.width = "600px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif") 
+```
+
+---
+## Project I : Identifying 'influential' OA authors
+
+* Not great at tracking
+
+--
+
+Goal: Find out who publishes OA and collaborates a lot with other authors at Northumbria.
+
+--
+
+* Bibliometrics project.
+
+--
+
+* Started with Scopus, moving to other databases (e.g., WoS).
+
+--
+
+* Side project: Find out if we are in the 'PLoS database' and see how we did.
+
+```{r, out.width = "300px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy-downsized-large.gif")
+```
+
+
+---
+## Project II : OA practices and internal REF scoring.
+
+* Goal: identifying if OA practices are used and if they are weighed in our internal REF 'mock' exercise.
+
+--
+
+* 2022 returns for two departments: Psychology and applied sciences. Rated by two reviewers.
+
+--
+
+* Coding based on: Norris E, Sulevani I, Finnerty AN, et al. Assessing Open Science practices in physical activity behaviour change intervention evaluations. _BMJ Open Sport & Exercise Medicine_ 2022;8:e001282. doi: 10.1136/bmjsem-2021-001282 -- with some minor tweaks... .
+
+```{r, out.width = "375px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/5ncqEwQBqUnXq/giphy.gif")
+```
+
+---
+## Any Questions?
+
+[mailto:thomas.pollet@northumbria.ac.uk](thomas.pollet@northumbria.ac.uk)
+
+[http://tvpollet.github.io](http://tvpollet.github.io)
+
+These slides: []()
+
+```{r, out.width = "600px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/3ohzdRoOp1FUYbtGDu/giphy.gif")
+```
+
+---
+## Acknowledgments
+
+* The slides were created in [RMarkdown](https://rmarkdown.rstudio.com/) with the [xaringan](https://github.com/yihui/xaringan) package.
+
+* You for listening!
+
+```{r, out.width = "500px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/10avZ0rqdGFyfu/giphy.gif")
+```
