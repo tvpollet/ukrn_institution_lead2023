@@ -90,7 +90,7 @@ knitr::include_graphics("https://media.giphy.com/media/5ncqEwQBqUnXq/giphy.gif")
 
 [http://tvpollet.github.io](http://tvpollet.github.io)
 
-These slides: []()
+These slides: [https://tvpollet.github.io/ukrn_institution_lead2023/UKRN_talk.html](https://tvpollet.github.io/ukrn_institution_lead2023/UKRN_talk.html)
 
 ```{r, out.width = "600px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/3ohzdRoOp1FUYbtGDu/giphy.gif")
